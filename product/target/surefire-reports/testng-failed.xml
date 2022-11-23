@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceLab]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="product.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="PurchaseOrderTest(failed)" verbose="0">
+    <classes>
+      <class name="product.SauceLabs">
+        <methods>
+          <include name="PurchaseOrder"/>
+        </methods>
+      </class> <!-- product.SauceLabs -->
+    </classes>
+  </test> <!-- PurchaseOrderTest(failed) -->
+</suite> <!-- Failed suite [SauceLab] -->
